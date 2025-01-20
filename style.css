@@ -130,7 +130,8 @@ a{
         display: block;
         height: auto;
         width: 100%;
-        position: relative;   
+        position: relative;  
+        max-width: 500px; 
     }
     .content {
         width: auto;
@@ -145,6 +146,7 @@ a{
     .product .mobile-view {
         display: block;
         width: 100%;
+        border-radius: 0.5rem 0.5rem 0 0;
     }
 }
 
